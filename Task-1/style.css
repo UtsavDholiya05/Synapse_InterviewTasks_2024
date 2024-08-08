@@ -5,10 +5,14 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: black;
     background-color: #FFFFFF;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 header {
@@ -17,7 +21,6 @@ header {
     padding: 10px 0;
     text-align: center;
 }
-
 
 header nav ul li {
     display: inline;
